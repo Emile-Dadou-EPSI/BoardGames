@@ -50,6 +50,7 @@ public class ServletLogin extends javax.servlet.http.HttpServlet {
 
         if (Login.equals("test") && Pwd.equals("test")) {
             request.getRequestDispatcher("/index.jsp").forward(request,response);
+            System.out.print("test");
         }
         else {
             request.getRequestDispatcher("/test.html").forward(request,response);
