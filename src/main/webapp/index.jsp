@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  HELLO Connexion worked out fine.
   </body>
 </html>
